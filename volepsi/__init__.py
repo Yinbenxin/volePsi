@@ -1,7 +1,7 @@
 """TenSEAL is a library for doing homomorphic encryption operation on tensors.
 """
 from typing import List
-from libvolepsi import VolePsi
+from .libvolepsi import VolePsi
 import logging
 
 class PSIParty:

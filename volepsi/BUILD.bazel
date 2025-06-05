@@ -48,3 +48,9 @@ py_test(
     srcs = ["vole_test.py"],
     deps = [":volepsi_lib"],
 )
+
+# 添加一个别名目标，使//volepsi:libvolepsi有效
+filegroup(
+    name = "libvolepsi",
+    srcs = [":libvolepsi.so"],
+)

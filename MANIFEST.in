@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+include pyproject.toml
+include WORKSPACE
+include BUILD.bazel
+include .bazelrc
+include .bazelversion
+recursive-include bazel *
+recursive-include volepsi *
