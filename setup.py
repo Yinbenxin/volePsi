@@ -3,7 +3,7 @@ from setuptools.command.build_ext import build_ext
 import os
 import subprocess
 import sys
-
+# python setup.py sdist bdist_wheel
 class BazelExtension(Extension):
     """用于从Bazel构建的Python扩展"""
     def __init__(self, name, bazel_target):
