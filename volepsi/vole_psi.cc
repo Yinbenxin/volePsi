@@ -14,7 +14,7 @@
 
 
 
-#include "psi/volepsi/vole_psi.h"
+#include "volepsi/vole_psi.h"
 
 namespace psi {
 

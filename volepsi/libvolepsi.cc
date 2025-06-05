@@ -1,7 +1,7 @@
 #include "pybind11/functional.h"
 #include "pybind11/pybind11.h"
 #include "pybind11/stl.h"
-#include "psi/volepsi/vole_psi.h"
+#include "volepsi/vole_psi.h"
 
 namespace py = pybind11;
 namespace psi {

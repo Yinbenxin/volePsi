@@ -1,6 +1,6 @@
 import multiprocessing
 import random
-from psi.volepsi import PSIParty
+from volepsi import PSIParty
 
 def generate_test_data(size):
     # 生成随机的 uint128 数据

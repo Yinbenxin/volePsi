@@ -24,9 +24,6 @@ psi_cc_test(
 )
 
 
-
-
-
 pybind_extension(
     name = "libvolepsi",
     srcs = ["libvolepsi.cc"],
